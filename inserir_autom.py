@@ -8,11 +8,9 @@ print(f"Por favor certifique-se que o excel está fechado antes de inserir qualq
 print(f"Os arquivos csv e excel devem estar na pasta \"arquivos\"")
 
 caminho_csv = input("Insira o nome do arquivo csv (SEM A EXTENSÃO)")
-print(f"{caminho_csv}")
 caminho_excel = input("Insira o nome do arquivo excel (COM A EXTENSÃO DO ARQUIVO ex: arquivo.xlsx)")
 
 data = pd.read_csv(f"arquivos/{caminho_csv}.csv")
-print(data)
 arquivo = xl.load_workbook(f"arquivos/{caminho_excel}")
 backup = arquivo
 aba_atual = arquivo.active
