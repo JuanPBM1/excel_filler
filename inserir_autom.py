@@ -17,6 +17,7 @@ arquivo = xl.load_workbook(f"arquivos/{caminho_excel}")
 backup = arquivo
 aba_atual = arquivo.active
 extensao_arquivo = Path(caminho_excel).suffix
+nome_arquivo = Path(caminho_excel).stem
 
 print("\n\n\n-------------------------DADOS A SEREM INSERIDOS-------------------------")
 indice_inicial = int(input("\nInsira o número da linha do excel em que os dados devem começar a ser inseridos:\n")) # a linha do arquivo excel que deverá ser inserida
@@ -33,6 +34,6 @@ for i in range(indice_inicial, indice_inicial+num_linhas): # vai do índice inic
 #Salvando os arquivos
 data_e_hora = datetime.now()
 data_hora_formatado = data_e_hora.strftime("%Y-%m-%d  %H-%M-%S")
-arquivo.save("arquivos/Employees.xlsx")
+arquivo.save(f"arquivos/{nome_arquivo}.{extensao_arquivo}")
 backup.save(f"backups/backup{data_hora_formatado}.{extensao_arquivo}")
         
