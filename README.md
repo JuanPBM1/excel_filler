@@ -1,6 +1,6 @@
 # Programa CLI para adicionar CSV em Excel
 - Autor: Juan Patrick
-- Necessário: git instalado e python instalado
+- Necessário: git instalado e python instalado. Também é necessária a instalação da biblioteca python openpyxl. Utilize o comando no terminal: `pip install openpyxl`
 ---
 Para rodar: 
 1. Clone o repositório em alguma pasta desejada, abrindo o terminal na pasta desejada e utilizando o comando: `git clone https://github.com/JuanPBM1/excel_filler.git`
