@@ -3,7 +3,7 @@
 - Necessário: git instalado e python instalado. Também é necessária a instalação das bibliotecas python openpyxl e pandas. Utilize os comandos no terminal: `pip install openpyxl` e `pip install pandas`
 - Utilize o programa por sua conta e risco. Não me responsabilizo por quaisquer perdas de dados e/ou arquivos.
 ---
-## ATENÇÃO: BACKUP NÃO ESTÁ FUNCIONANDO NA VERSÃO ATUAL. FAÇA SEU PRÓPRIO BACKUP, COLOCANDO UMA CÓPIA DO ARQUIVO EXCEL NA PASTA ARQUIVOS. MANTER A VERSÃO ORIGINAL
+## ATENÇÃO: BACKUP NÃO ESTÁ FUNCIONANDO NA VERSÃO ATUAL. FAÇA SEU PRÓPRIO BACKUP, MANTER A VERSÃO ORIGINAL DO ARQUIVO LONGE DA PASTA DO PROGRAMA. COLOQUE NELA APENAS CÓPIAS DO ARQUIVO
 Para rodar: 
 1. Clone o repositório em alguma pasta desejada, abrindo o terminal na pasta desejada e utilizando o comando: `git clone https://github.com/JuanPBM1/excel_filler.git`
 2. Deve-se adicionar ambos os arquivos que serão utilizados (.csv e o arquivo excel) na pasta arquivos
